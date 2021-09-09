@@ -1,15 +1,15 @@
 #mapid {
-	height:100%;
-	width: 100%;
-	margin-left: 100%; auto ; 
-	margin-right: 100%; auto ;
+	height:420px;
+	width: 1120px;
+	margin-left: 75px;
+	margin-right: 100px;
 }
 
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%; auto ;
-  padding:100%; auto ;
+  width: 608px; auto ;
+  padding:7px; auto ;
   height: 100%; auto ; /* Should be removed. Only for demonstration */
   text-align:left;
   border:0.2px solid;
