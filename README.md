@@ -1,2 +1,2 @@
 # coopecaliforniarl
-Proyecto CIA-UCR y CoopeCalifornia R.L.
+https://bryaleman.github.io/coopecaliforniarl/
