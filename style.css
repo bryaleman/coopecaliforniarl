@@ -1,8 +1,8 @@
 #mapid {
 	height:420px;
 	width: 1120px;
-	margin-left: 75px; 
-	margin-right: 100px;
+	margin-left: 100%; auto ; 
+	margin-right: 100%; auto ;
 }
 
 /* Create two equal columns that floats next to each other */
