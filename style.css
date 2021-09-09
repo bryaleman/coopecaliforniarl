@@ -8,8 +8,8 @@
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 608px;
-  padding:7px;
+  width: 100%; auto ;
+  padding:100%; auto ;
   height: 340px; /* Should be removed. Only for demonstration */
   text-align:left;
   border:0.2px solid;
