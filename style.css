@@ -10,7 +10,7 @@
   float: left;
   width: 100%; auto ;
   padding:100%; auto ;
-  height: 340px; /* Should be removed. Only for demonstration */
+  height: 100%; auto ; /* Should be removed. Only for demonstration */
   text-align:left;
   border:0.2px solid;
   background-color:#CCD1D1;
