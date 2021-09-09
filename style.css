@@ -1,0 +1,62 @@
+#mapid {
+	height:420px;
+	width: 1120px;
+	margin-left: 75px; 
+	margin-right: 100px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 608px;
+  padding:7px;
+  height: 340px; /* Should be removed. Only for demonstration */
+  text-align:left;
+  border:0.2px solid;
+  background-color:#CCD1D1;
+  opacity: 0.99;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  font-size: 220%;
+  text-align: left;
+  margin: 10px;
+  
+}
+
+h2 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+p {
+  font-size: 15px;
+  text-align:justify;
+}
+
+.legend {
+	color: #555;
+	padding: 3px 4px;
+	font: Verdana;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.75;
+}	
+

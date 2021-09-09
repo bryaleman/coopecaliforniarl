@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<link rel="stylesheet" type="text/css" href="style.css">	
+<link rel="stylesheet" type="text/css" href="style_barra.css">
+	
+<title>Plantaciones de Palma de Aceite en CoopeCalifornia R.L.</title>   
+
+
+<style> 
+	body  {
+	  background-image: url("palmas.JPG");           
+	  background-size: 1269px 843px;
+	  background-repeat: no-repeat; 
+	  
+	}
+</style>
+
+<meta charset="UTF-8">
+	   
+
+	<!-- Hoja de estilos CSS de Leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>	
+	<!-- Biblioteca JS de Leaflet -->
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>	
+	<!-- Complemento Leaflet-providers -->
+	<script src="js/leaflet-providers.js"></script>	
+	
+	<!-- En HTML: enlace a Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+	integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	crossorigin="anonymous" />
+	
+	<!-- Enlace a biblioteca JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous">
+	
+</script>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="index.html">Principal</a>
+  <a class="active"  href="smscopevictoria.html">SMS-CoopeCalifornia R.L.</a>
+  <a href="contactos.html">Contactos</a>
+</div>
+
+<h1 style="text-align:center;margin-left: 75px; margin-right: 100px;" >Sistema de Monitoreo Satelital de las Plantaciones de Palma de Aceite en CoopeCalifornia R.L. </h1>
+
+
+<div id="panel" style = "margin-left:75px; margin-right: 52px; background-color:#D3D3D3;">
+					<label>Selecione una Finca</label>
+					<select id="estilo" onchange="estiloSelect()">
+					  <option value="Todas">TODOS</option>
+					  <option value="El Tigre">El Tigre</option>
+					  <option value="La Palma">La Palma</option>
+					  <option value="Los Angeles" >Los Angeles</option>
+					</select>
+</div>
+	
+<!-- Elemento div para contener el mapa -->
+<div id="mapid"></div>	
+
+
+<!-- Código principal en JS -->
+	<script src="js/scripts.js"></script>	
+
+
+</body>
+</html>
