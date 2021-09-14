@@ -15,11 +15,13 @@ body {
       
 .container .box .box-cell.box1 {
  background:rgba(255,255,255,.85);
+ color: black;
  text-align:justify;
 }
 
 .container .box .box-cell.box2 {
  background:rgba(255,255,255,.85);
+ color: black;
  text-align:justify
 }
 
