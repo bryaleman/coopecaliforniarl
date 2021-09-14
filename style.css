@@ -14,13 +14,13 @@ body {
 }
       
 .container .box .box-cell.box1 {
- background:green;
+ background:rgba(255,255,255,.85);
  color:white;
  text-align:justify;
 }
 
 .container .box .box-cell.box2 {
- background:lightgreen;
+ background:rgba(255,255,255,.85);
  text-align:justify
 }
 
