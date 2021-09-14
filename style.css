@@ -18,8 +18,8 @@
   
 }
 
-/* Clear floats after the columns */
-.row:after {
+/* Clear floats after the columns  .row:after */
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
