@@ -10,8 +10,8 @@
 
 <style> 
 	body  {
-	  background-image: url("palmas.JPG");           
-	  background-size: 1269px 843px;
+	  background-image: url("palma.jpg");           
+	  background-size: 100% 100%;
 	  background-repeat: no-repeat; 
 	  
 	}
@@ -51,7 +51,7 @@
 <h1 style="text-align:center;margin-left: 75px; margin-right: 100px;" >Sistema de Monitoreo Satelital de las Plantaciones de Palma de Aceite en CoopeCalifornia R.L. </h1>
 
 
-<div id="panel" style = "margin-left:75px; margin-right: 52px; background-color:#D3D3D3;">
+<div id="panel" style = "margin-left:2%; margin-right: 2%; background-color:#D3D3D3;">
 					<label>Selecione una Finca</label>
 					<select id="estilo" onchange="estiloSelect()">
 					  <option value="Todas">TODOS</option>
@@ -62,7 +62,7 @@
 </div>
 	
 <!-- Elemento div para contener el mapa -->
-<div id="mapid"></div>	
+<div id="mapid" style = "margin-left:2%; margin-right: 2%; height:100vh; width: auto; z-index: 1; "></div>	
 
 
 <!-- Código principal en JS -->
